@@ -528,7 +528,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=625) | [625]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=626) | [626]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=627) | [627]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=628) | [628]() |        |
+| [Eligiendo uvas](https://aceptaelreto.com/problem/statement.php?id=628) | [628](./problemas/628.cpp) | :beetle: |
 | [](https://aceptaelreto.com/problem/statement.php?id=629) | [629]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=630) | [630]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=631) | [631]() |        |
