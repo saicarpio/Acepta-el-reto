@@ -79,7 +79,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=176) | [176]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=177) | [177]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=178) | [178]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=179) | [179](./problemas/179.cpp) | AC |
+| [Molinos de viento](https://aceptaelreto.com/problem/statement.php?id=179) | [179](./problemas/179.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=180) | [180]() |        |
 | [Las torres perezosas](https://aceptaelreto.com/problem/statement.php?id=181) | [181](./problemas/181.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=182) | [182]() |        |
@@ -240,7 +240,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=337) | [337]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=338) | [338]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=339) | [339]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=340) | [340]() |        |
+| [Cuadrados con cerillas](https://aceptaelreto.com/problem/statement.php?id=340) | [340](./problemas/340.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=341) | [341]() |        |
 | [¡No lo puedes saber!](https://aceptaelreto.com/problem/statement.php?id=342) | [342](./problemas/342.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=343) | [343]() |        |
@@ -320,7 +320,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=417) | [417]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=418) | [418]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=419) | [419]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=420) | [420]() |        |
+| [El secreto de la bolsa](https://aceptaelreto.com/problem/statement.php?id=420) | [420](./problemas/420.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=421) | [421]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=422) | [422]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=423) | [423]() |        |
@@ -415,7 +415,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=512) | [512]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=513) | [513]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=514) | [514]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=515) | [515]() |        |
+| [Poniendo la mesa](https://aceptaelreto.com/problem/statement.php?id=515) | [515](./problemas/515.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=516) | [516]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=517) | [517]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=518) | [518]() |        |
@@ -474,7 +474,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=571) | [571]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=572) | [572]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=573) | [573]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=574) | [574]() |        |
+| [Gritos en Halloween](https://aceptaelreto.com/problem/statement.php?id=574) | [574](./problemas/574.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=575) | [575]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=576) | [576]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=577) | [577]() |        |
@@ -493,7 +493,7 @@
 | [A caballo por el viñedo](https://aceptaelreto.com/problem/statement.php?id=590) | [590](./problemas/590.cpp) | AC |
 | [Dendrocronología](https://aceptaelreto.com/problem/statement.php?id=591) | [591](./problemas/591.cpp) | AC |
 | [Anteproyecto de los presupuestos](https://aceptaelreto.com/problem/statement.php?id=592) | [592](./problemas/592.cpp) | :beetle: |
-| [](https://aceptaelreto.com/problem/statement.php?id=593) | [593]() |        |
+| [Pruebas en lotes](https://aceptaelreto.com/problem/statement.php?id=593) | [593](./problemas/593.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=594) | [594]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=595) | [595]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=596) | [596]() |        |
@@ -528,9 +528,9 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=625) | [625]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=626) | [626]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=627) | [627]() |        |
-| [Eligiendo uvas](https://aceptaelreto.com/problem/statement.php?id=628) | [628](./problemas/628.cpp) | :beetle: |
-| [](https://aceptaelreto.com/problem/statement.php?id=629) | [629]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=630) | [630]() |        |
+| [Eligiendo uvas](https://aceptaelreto.com/problem/statement.php?id=628) | [628](./problemas/628.cpp) | AC |
+| [Villancicos al viento](https://aceptaelreto.com/problem/statement.php?id=629) | [629](./problemas/629.cpp) | AC |
+| [Torneo de pádel](https://aceptaelreto.com/problem/statement.php?id=630) | [630](./problemas/630.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=631) | [631]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=632) | [632]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=633) | [633]() |        |
@@ -563,8 +563,8 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=660) | [660]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=661) | [661]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=662) | [662]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=663) | [663]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=664) | [664]() |        |
+| [Contando desde el cero](https://aceptaelreto.com/problem/statement.php?id=663) | [663](./problemas/) | AC |
+| [Gálibo](https://aceptaelreto.com/problem/statement.php?id=664) | [664](./problemas/664.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=665) | [665]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=666) | [666]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=667) | [667]() |        |
@@ -607,7 +607,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=704) | [704]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=705) | [705]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=706) | [706]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=707) | [707]() |        |
+| [La batalla por la Tierra Media](https://aceptaelreto.com/problem/statement.php?id=707) | [707](./problemas/707.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=708) | [708]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=709) | [709]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=710) | [710]() |        |

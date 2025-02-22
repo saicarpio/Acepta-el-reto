@@ -10,7 +10,7 @@ bool resolver(int i, int j, int a, int b) {
     // i = xa + yb
     // j = xb + ya
 
-    // ia = xaa + yba
+    // ia = xaa + yab
     // jb = xbb + yab
 
     long long ia = i * a;

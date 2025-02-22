@@ -3,8 +3,6 @@
 #include <fstream>
 #include <vector>
 
-
-
 void resuelveConsulta(std::vector<int> const& v) {
     int a, b;
     std::cin >> a >> b;

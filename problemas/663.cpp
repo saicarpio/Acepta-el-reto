@@ -3,19 +3,16 @@
 #include <fstream>
 
 
-TipoSolucion resolver(TipoDatos datos) {
-    
-    
-}
-
 void resuelveCaso() {
-    // leer los datos de la entrada
-    
-    
-    TipoSolucion sol = resolver(datos);
-    // escribir sol
-    
-    
+    int n;
+    std::cin >> n;
+
+    if (n > 0) {
+        std::cout << n - 1 << std::endl;
+    }
+    else {
+        std::cout << n << std::endl;
+    }
 }
 
 int main() {
