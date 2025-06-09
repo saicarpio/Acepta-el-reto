@@ -144,7 +144,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=241) | [241]() |        |
 | [Erasmús](https://aceptaelreto.com/problem/statement.php?id=242) | [242](./problemas/242.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=243) | [243]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=244) | [244]() |        |
+| [Reinas atacadas](https://aceptaelreto.com/problem/statement.php?id=244) | [244](./problemas/244.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=245) | [245]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=246) | [246]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=247) | [247]() |        |
