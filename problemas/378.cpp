@@ -1,19 +1,26 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
-#include <map>
+#include <vector>
+#include <algorithm>
 
 int n;
-//        idx           max, min
-std::map<int, std::pair<int, int>> mapa;
+//                    win, spent
+std::vector<std::pair<int, int>> mapa;
+
+struct Comparator {                           
+    bool operator()(const std::pair<int, int>& p1, const std::pair<int, int>& p2) {
+        return (p1.first < p2.first) || ((p1.first == p2.first) && (p1.second > p2.second));
+    }
+};
 
 bool resolver() {
-    std::map<int, std::pair<int, int>>::iterator ita, itb;
+    std::vector<std::pair<int, int>>::iterator ita, itb;
     ita = itb = mapa.begin();
     ita++;
 
     for (; ita != mapa.end(); ita++, itb++) {
-        if (ita->second.second <= itb->second.first) return false;
+        if (ita->second < itb->second) return false;
     }
 
     return true;
@@ -27,17 +34,15 @@ bool resuelveCaso() {
 
     mapa.clear();
     int a, b;
+    bool sol;
     for (int i = 0; i < n; i++) {
         std::cin >> a >> b;
-        if (mapa.find(a) == mapa.end())
-            mapa.insert(std::pair<int, std::pair<int, int>>(a, std::pair<int, int>(b, b)));
-        else {
-            mapa[a].first = b > mapa[a].first ? b : mapa[a].first;
-            mapa[a].second = b < mapa[a].second ? b : mapa[a].second;
-        }
+        mapa.push_back({ b, a });
     }
 
-    bool sol = resolver();
+    std::sort(mapa.begin(), mapa.end(), Comparator());
+
+    sol = resolver();
 
     if (sol) std::cout << "SI\n";
     else std::cout << "NO\n";
