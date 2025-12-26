@@ -279,7 +279,7 @@
 | [Siete picos](https://aceptaelreto.com/problem/statement.php?id=376) | [376](./problemas/376.cpp) | AC |
 | [Cuadrados imperfectos](https://aceptaelreto.com/problem/statement.php?id=377) | [377](./problemas/377.cpp) | AC |
 | [La justicia de la lotería](https://aceptaelreto.com/problem/statement.php?id=378) | [378](./problemas/378.cpp) | AC |
-| [](https://aceptaelreto.com/problem/statement.php?id=379) | [379]() |        |
+| [Creciente por los pelos](https://aceptaelreto.com/problem/statement.php?id=379) | [379](./problemas/379.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=380) | [380]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=381) | [381]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=382) | [382]() |        |
