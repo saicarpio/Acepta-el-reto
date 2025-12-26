@@ -1,0 +1,28 @@
+= CppHULETARIO
+
+:toc:  
+
+== Basics of C++
+
+=== Data Types
+
+=== Pointer and References
+
+== Useful Libraries
+===  #include <sort>
+Sorting a range of elements
+----
+#include <algorithm>
+
+std::sort(begin_iterator, end_iterator);
+----
+
+
+
+== Algorithms and Data Structures
+
+== References
+* [C++ Official Documentation](https://en.cppreference.com/w/)
+* [Learn C++](https://www.learncpp.com/)
+* [C++ Tutorials](https://www.cplusplus.com/doc/tutorial/)
+* [Stack Overflow C++ Questions](https://stackoverflow.com/questions/tagged/c%2b%2b)

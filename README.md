@@ -42,7 +42,7 @@
 | [Números cubifinitos](https://aceptaelreto.com/problem/statement.php?id=139) | [139]() |        |
 | [Suma de dígitos](https://aceptaelreto.com/problem/statement.php?id=140) | [140](./problemas/140.cpp) | AC |
 | [Parentesis balanceados](https://aceptaelreto.com/problem/statement.php?id=141) | [141](./problemas/141.cpp) | AC |
-| [¿Quién empieza?](https://aceptaelreto.com/problem/statement.php?id=142) | [142]() |        |
+| [¿Quién empieza?](https://aceptaelreto.com/problem/statement.php?id=142) | [142](./problemas/142.cpp) | AC |
 | [Tortitas](https://aceptaelreto.com/problem/statement.php?id=143) | [143]() |        |
 | [Teclado estropeado](https://aceptaelreto.com/problem/statement.php?id=144) | [144]() |        |
 | [El tren del amor](https://aceptaelreto.com/problem/statement.php?id=145) | [145]() |        |
@@ -333,8 +333,8 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=430) | [430]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=431) | [431]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=432) | [432]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=433) | [433]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=434) | [434]() |        |
+| [Racimos de uvas](https://aceptaelreto.com/problem/statement.php?id=433) | [433](./problemas/433.cpp) | AC |
+| [Romance en el palomar](https://aceptaelreto.com/problem/statement.php?id=434) | [434](./problemas/434.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=435) | [435]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=436) | [436]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=437) | [437]() |        |
