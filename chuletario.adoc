@@ -1,4 +1,8 @@
 = CppHULETARIO
+This is for Acetpa el Reto users to have a quick reference of C++ concepts and libraries.
+:doctype: book
+
+Compiler used: g++ -std=c++11
 
 :toc:  
 
@@ -7,6 +11,10 @@
 === Data Types
 
 === Pointer and References
+
+=== Structures
+
+=== Classes and Objects
 
 == Useful Libraries
 ===  #include <algorithm>
@@ -35,7 +43,129 @@ int main() {
 }
 ----
 
+=== #include <vector>
+[source,cpp]
+----
+#include <vector>
+int main() {
+    std::vector<int> vec;
+    
+    // Adding elements
+    vec.push_back(10);
+    vec.push_back(20);
+    vec.push_back(30);
+    
+    // Accessing elements
+    for(size_t i = 0; i < vec.size(); i++) {
+        std::cout << vec[i] << " ";
+    }
+    
+    return 0;
+}
+----
 
+=== #include <string>
+[source,cpp]
+----
+#include <string>
+int main() {
+    std::string str = "Hello, World!";
+    
+    // Accessing characters
+    for(size_t i = 0; i < str.length(); i++) {
+        std::cout << str[i] << " ";
+    }
+    
+    return 0;
+}
+----
+
+=== #include <stack>
+[source,cpp]
+----
+#include <stack>
+int main() {
+    std::stack<int> s;
+    
+    // Pushing elements
+    s.push(10);
+    s.push(20);
+    s.push(30);
+    
+    // Popping elements
+    while(!s.empty()) {
+        std::cout << s.top() << " ";
+        s.pop();
+    }
+    
+    return 0;
+}
+----
+
+=== #include <queue>
+[source,cpp]
+----
+#include <queue>
+int main() {
+    std::queue<int> q;
+    
+    // Enqueuing elements
+    q.push(10);
+    q.push(20);
+    q.push(30);
+    
+    // Dequeuing elements
+    while(!q.empty()) {
+        std::cout << q.front() << " ";
+        q.pop();
+    }
+    
+    return 0;
+}
+----
+
+=== #include <deque>
+[source,cpp]
+----
+#include <deque>
+int main() {
+    std::deque<int> dq;
+    
+    // Pushing elements
+    dq.push_back(10);
+    dq.push_front(20);
+    dq.push_back(30);
+    
+    // Popping elements
+    while(!dq.empty()) {
+        std::cout << dq.front() << " ";
+        dq.pop_front();
+    }
+    
+    return 0;
+}
+----
+
+=== #include <map>
+[source,cpp]
+----
+#include <map>
+int main() {
+    std::map<std::string, int> myMap;
+    
+    // Inserting key-value pairs
+    myMap["apple"] = 1;
+    myMap["banana"] = 2;
+    myMap["cherry"] = 3;
+    
+    // Accessing values
+    for(const auto& pair : myMap) {
+        std::cout << pair.first << ": " << pair.second << std::endl;
+    }
+    
+    return 0;
+}
+----
 
 == Algorithms and Data Structures
 
@@ -93,7 +223,4 @@ int main() {
 ----
 
 == References
-* [C++ Official Documentation](https://en.cppreference.com/w/)
-* [Learn C++](https://www.learncpp.com/)
-* [C++ Tutorials](https://www.cplusplus.com/doc/tutorial/)
-* [Stack Overflow C++ Questions](https://stackoverflow.com/questions/tagged/c%2b%2b)
+

@@ -1,58 +1,73 @@
 #include <iostream>
-#include <algorithm>
+#include <iomanip>
+#include <fstream>
+#include <vector>
 
-using namespace std;
+std::vector<int> v;
 
-const int MAX = 100000;
-int v[MAX], n;
+int merge(int low, int mid, int high) {
+	std::vector<int> temp(high - low + 1);
+	int i = low, j = mid + 1, k = 0;
+	int inv_count = 0;
+	
+	while (i <= mid && j <= high) {
+		if (v[i] <= v[j]) {
+			temp[k++] = v[i++];
+		} else {
+			temp[k++] = v[j++];
+			inv_count += (mid - i + 1);
+		}
+	}
+	
+	while (i <= mid) temp[k++] = v[i++];
+	while (j <= high) temp[k++] = v[j++];
+	
+	for (i = low, k = 0; i <= high; ++i, ++k)
+		v[i] = temp[k];
+	
+	return inv_count;
+}
 
-int inversionesDelVector(int v[],int o, int n);
+int mergeSort(int low, int high) {
+	int inv_count = 0;
+	if (low < high) {
+		int mid = low + (high - low) / 2;
+		inv_count += mergeSort(low, mid);
+		inv_count += mergeSort(mid + 1, high);
+		inv_count += merge(low, mid, high);
+	}
+	return inv_count;
+}
+
+int resolver(int n, int low, int high) {
+	return mergeSort(low, high);
+}
+
+bool resuelveCaso() {
+    int n;
+	std::cin >> n;
+
+    if (!n)
+        return false;
+	
+	int m;
+    v.clear();
+	for(int i = 0; i < n; ++i) {
+		std::cin >> m;
+		v.push_back(m);
+	}
+
+    int sol = resolver(n, 0, n-1);
+    
+    std::cout << sol << "\n";
+
+    return true;
+}
+
 
 int main() {
 
-	cin >> n;
-
-	while (n != 0) {
-
-		for (int i = 0; i < n; ++i) {
-			cin >> v[i];
-		}
-
-		cout << inversionesDelVector(v, 0, n) << endl;
-
-		cin >> n;
-	}
+	while (resuelveCaso());
 
 	return 0;
-}
-
-int inversionesDelVector(int v[], int o, int n) {
-	
-	int ret = 0;
-	int k = o;
-	bool sorted;
-
-	while (k < n -1 && v[k] <= v[k + 1]) 
-		++k;
-	sorted = k >= n - 1;
-
-	if (!sorted) {
-
-		ret += inversionesDelVector(v, k + 1, n);
-		int i = o, j = k + 1;
-		while (i < k + 1 && j < n) {
-
-			if (v[i] <= v[j]) {
-				++i;
-			}
-			else if (v[j] < v[i]) {
-				++j;
-				ret += k + 1 - i;
-			}
-		}
-
-		sort(v + o, v + n);
-	}
-		
-	return ret;
 }

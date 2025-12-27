@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
-#include <string>
+
 
 struct Node {
     char data;
@@ -72,32 +72,33 @@ public:
 };
 
 
-void resolver(std::string line) {
+void resolver(char c) {
     LinkedList list;
-    for (char ch : line) {
-        if (ch == '-') {
+    while (c != '\n') {
+        if (c == '-') {
             list.gotoBegin();
-        } else if (ch == '+') {
+        } else if (c == '+') {
             list.gotoEnd();
-        } else if (ch == '*') {
+        } else if (c == '*') {
             list.moveNext();
-        } else if (ch == '3') {
+        } else if (c == '3') {
             list.supress();
         } else {
-            list.insert(ch);
+            list.insert(c);
         }
+        std::cin.get(c);
     }
     list.displayAndClear();
 }
 
 bool resuelveCaso() {
-    std::string line;
-    std::getline(std::cin, line);
+    char c;
+    std::cin.get(c);
     
     if (!std::cin)
         return false;
     
-    resolver(line);
+    resolver(c);
     
     return true;
 }

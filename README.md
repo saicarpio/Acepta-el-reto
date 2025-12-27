@@ -45,7 +45,7 @@
 | [¿Quién empieza?](https://aceptaelreto.com/problem/statement.php?id=142) | [142](./problemas/142.cpp) | AC |
 | [Tortitas](https://aceptaelreto.com/problem/statement.php?id=143) | [143]() |        |
 | [Teclado estropeado](https://aceptaelreto.com/problem/statement.php?id=144) | [144](./problemas/144.cpp) | AC |
-| [El tren del amor](https://aceptaelreto.com/problem/statement.php?id=145) | [145]() |        |
+| [El tren del amor](https://aceptaelreto.com/problem/statement.php?id=145) | [145](./problemas/145.cpp) | AC |
 | [Números afortunados](https://aceptaelreto.com/problem/statement.php?id=146) | [146]() |        |
 | [Las 15 cerillas](https://aceptaelreto.com/problem/statement.php?id=147) | [147]() |        |
 | [Nochevieja](https://aceptaelreto.com/problem/statement.php?id=148) | [148]() |        |
@@ -170,7 +170,7 @@
 | [Postes para un cercado](https://aceptaelreto.com/problem/statement.php?id=267) | [267]() |        |
 | [Desarrollos enn las bicicletas](https://aceptaelreto.com/problem/statement.php?id=268) | [268]() |        |
 | [Entrenando para la vuelta ciclista](https://aceptaelreto.com/problem/statement.php?id=269) | [269]() |        |
-| [Me pilló el toro](https://aceptaelreto.com/problem/statement.php?id=270) | [270]() |        |
+| [Me pilló el toro](https://aceptaelreto.com/problem/statement.php?id=270) | [270](./problemas/270.cpp) | AC |
 | [Pájaros en vuelo](https://aceptaelreto.com/problem/statement.php?id=271) | [271]() |        |
 | [Tres dedos en cada mano](https://aceptaelreto.com/problem/statement.php?id=272) | [272](./problemas/272.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=273) | [273]() |        |
@@ -579,7 +579,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=676) | [676]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=677) | [677]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=678) | [678]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=679) | [679]() |        |
+| [Facundo y el undo](https://aceptaelreto.com/problem/statement.php?id=679) | [679](./problemas/679.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=680) | [680]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=681) | [681]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=682) | [682]() |        |
