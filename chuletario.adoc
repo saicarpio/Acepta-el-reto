@@ -9,17 +9,88 @@
 === Pointer and References
 
 == Useful Libraries
-===  #include <sort>
-Sorting a range of elements
+===  #include <algorithm>
+[source,cpp]
 ----
 #include <algorithm>
 
-std::sort(begin_iterator, end_iterator);
+struct Comparator {
+    bool operator()(int a, int b) {
+        return a < b; // Ascending order
+    }
+};
+
+int main() {
+    int arr[] = {5, 2, 8, 1, 9};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    
+    std::sort(arr, arr + n, Comparator());
+    
+    // Print sorted array
+    for(int i = 0; i < n; i++) {
+        std::cout << arr[i] << " ";
+    }
+    
+    return 0;
+}
 ----
 
 
 
 == Algorithms and Data Structures
+
+=== Linked List
+Tis the basic Node structure
+[source,cpp]
+----
+struct Node {
+    int data;
+    Node* next; // Singly linked list
+    Node* prev;  // Doubly linked list (optional)
+    Node(int val) : data(val), next(nullptr), prev(nullptr) {}
+};
+----
+
+For comfy operations
+[source,cpp]
+----
+class LinkedList {
+private:
+    Node* head;
+public:
+    LinkedList() : head(nullptr) {}
+    
+    void insert(int val) {
+        Node* newNode = new Node(val);
+        if (!head) {
+            head = newNode;
+        } else {
+            Node* temp = head;
+            while (temp->next) {
+                temp = temp->next;
+            }
+            temp->next = newNode;
+        }
+    }
+    
+    void display() {
+        Node* temp = head;
+        while (temp) {
+            std::cout << temp->data << " -> ";
+            temp = temp->next;
+        }
+        std::cout << "nullptr" << std::endl;
+    }
+};
+int main() {
+    LinkedList list;
+    list.insert(10);
+    list.insert(20);
+    list.insert(30);
+    list.display(); // Output: 10 -> 20 -> 30 -> nullptr
+    return 0;
+}
+----
 
 == References
 * [C++ Official Documentation](https://en.cppreference.com/w/)

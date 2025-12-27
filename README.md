@@ -44,7 +44,7 @@
 | [Parentesis balanceados](https://aceptaelreto.com/problem/statement.php?id=141) | [141](./problemas/141.cpp) | AC |
 | [¿Quién empieza?](https://aceptaelreto.com/problem/statement.php?id=142) | [142](./problemas/142.cpp) | AC |
 | [Tortitas](https://aceptaelreto.com/problem/statement.php?id=143) | [143]() |        |
-| [Teclado estropeado](https://aceptaelreto.com/problem/statement.php?id=144) | [144]() |        |
+| [Teclado estropeado](https://aceptaelreto.com/problem/statement.php?id=144) | [144](./problemas/144.cpp) | AC |
 | [El tren del amor](https://aceptaelreto.com/problem/statement.php?id=145) | [145]() |        |
 | [Números afortunados](https://aceptaelreto.com/problem/statement.php?id=146) | [146]() |        |
 | [Las 15 cerillas](https://aceptaelreto.com/problem/statement.php?id=147) | [147]() |        |
