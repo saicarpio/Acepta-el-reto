@@ -30,7 +30,7 @@
 | [Una, dola, tela, catola](https://aceptaelreto.com/problem/statement.php?id=127) | [127]() |        |
 | [Florencia](https://aceptaelreto.com/problem/statement.php?id=128) | [128]() |        |
 | [Marcadores de 7 segmentos](https://aceptaelreto.com/problem/statement.php?id=129) | [129]() |        |
-| [Mejor... imposible](https://aceptaelreto.com/problem/statement.php?id=130) | [130]() |        |
+| [Mejor... imposible](https://aceptaelreto.com/problem/statement.php?id=130) | [130](./problemas/130.cpp) | AC |
 | [Llenando piscinas](https://aceptaelreto.com/problem/statement.php?id=131) | [131]() |        |
 | [Las cartas del abuelo](https://aceptaelreto.com/problem/statement.php?id=132) | [132](./problemas/132.cpp) | AC |
 | [Prueba del nueve en base N](https://aceptaelreto.com/problem/statement.php?id=133) | [133]() |        |
@@ -72,7 +72,7 @@
 | [Carrera popular](https://aceptaelreto.com/problem/statement.php?id=169) | [169]() |        |
 | [Triángulos con piedras](https://aceptaelreto.com/problem/statement.php?id=170) | [170]() |        |
 | [Abadías pirenaicas](https://aceptaelreto.com/problem/statement.php?id=171) | [171](./problemas/171.cpp) | AC |
-| [El pan en las bodas](https://aceptaelreto.com/problem/statement.php?id=172) | [172]() |        |
+| [El pan en las bodas](https://aceptaelreto.com/problem/statement.php?id=172) | [172](./problemas/172.cpp) | AC |
 | [Partido de squash](https://aceptaelreto.com/problem/statement.php?id=173) | [173]() |        |
 | [Año 2013](https://aceptaelreto.com/problem/statement.php?id=174) | [174]() |        |
 | [Manías tenemos todos](https://aceptaelreto.com/problem/statement.php?id=175) | [175]() |        |
@@ -94,7 +94,7 @@
 | [Los problemas de ser rico](https://aceptaelreto.com/problem/statement.php?id=191) | [191]() |        |
 | [Por 3 o más 5](https://aceptaelreto.com/problem/statement.php?id=192) | [192](./problemas/192.cpp) | AC |
 | [Números reversibles](https://aceptaelreto.com/problem/statement.php?id=193) | [193]() |        |
-| [Salvemos al lince ibérico](https://aceptaelreto.com/problem/statement.php?id=194) | [194]() |        |
+| [Salvemos al lince ibérico](https://aceptaelreto.com/problem/statement.php?id=194) | [194](./problemas/194.cpp) | AC |
 | [Saltos de trampolin](https://aceptaelreto.com/problem/statement.php?id=195) | [195]() |        |
 | [Sudokus vacíos](https://aceptaelreto.com/problem/statement.php?id=196) | [196]() |        |
 | [Mensaje interceptado](https://aceptaelreto.com/problem/statement.php?id=197) | [197]() |        |
