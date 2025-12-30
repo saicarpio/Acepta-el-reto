@@ -17,6 +17,9 @@ Compiler used: g++ -std=c++11
 === Classes and Objects
 
 == Useful Libraries
+
+I want the usefull functions here and the code examples in the Algorithms and Data Structures section. At least for the Data Structures ones.
+
 ===  #include <algorithm>
 [source,cpp]
 ----
@@ -81,6 +84,9 @@ int main() {
 ----
 
 === #include <stack>
+
+At some point, I will make this pretty, as I want it. For now, the stack and queue libraries are extensions of the ddeque library, or so I think. Their memory is managed dinamically, automatically deleted when leavind the scope. Maybe I should move this to the Algorithms and Data Structures section.
+
 [source,cpp]
 ----
 #include <stack>
@@ -221,6 +227,18 @@ int main() {
     return 0;
 }
 ----
+
+=== Math Utilities and Number Theory
+
+Aparece mucho lo del triángulo de Pascal, combinatoria, etc.
+Los problemas 335 y 433 eran del palo, calcular el tamaño de los niveles o cuantos niveles para tantos elementos.
+La suma de Gauss me ha resultado útil para esto.
+
+Otra movida es lo de los número primos, cribas, factorización, gcd, lcm, etc.
+Nedesito un algoritmo rápido para calcular gcd y lcm.
+El problema 226 parecía de fracciones pero haciendo magia negra se transformaba en factorización de números.
+
+Como en los problemas NP, que tenía que encontrar la transformada de un problema a otro.
 
 == References
 

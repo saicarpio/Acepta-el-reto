@@ -90,7 +90,7 @@
 | [Solitario](https://aceptaelreto.com/problem/statement.php?id=187) | [187]() |        |
 | [Encadenando palabras](https://aceptaelreto.com/problem/statement.php?id=188) | [188]() |        |
 | [Embarque en un transatlántico](https://aceptaelreto.com/problem/statement.php?id=189) | [189]() |        |
-| [Dividir factoriales](https://aceptaelreto.com/problem/statement.php?id=190) | [190]() |        |
+| [Dividir factoriales](https://aceptaelreto.com/problem/statement.php?id=190) | [190](./problemas/190.cpp) | AC |
 | [Los problemas de ser rico](https://aceptaelreto.com/problem/statement.php?id=191) | [191]() |        |
 | [Por 3 o más 5](https://aceptaelreto.com/problem/statement.php?id=192) | [192](./problemas/192.cpp) | AC |
 | [Números reversibles](https://aceptaelreto.com/problem/statement.php?id=193) | [193]() |        |
@@ -126,7 +126,7 @@
 | [Aprendiendo a multiplicar](https://aceptaelreto.com/problem/statement.php?id=223) | [223](./problemas/223.cpp) | AC |
 | [Los bocadillos de la hormiga reina](https://aceptaelreto.com/problem/statement.php?id=224) | [224](./problemas/224.cpp) | AC |
 | [El otro hijo de Bonacci](https://aceptaelreto.com/problem/statement.php?id=225) | [225](./problemas/225.cpp) | AC |
-| [Reescribiendo fracciones](https://aceptaelreto.com/problem/statement.php?id=226) | [226]() |        |
+| [Reescribiendo fracciones](https://aceptaelreto.com/problem/statement.php?id=226) | [226](./problemas/226.cpp) | AC |
 | [Eligiendo caramelos](https://aceptaelreto.com/problem/statement.php?id=227) | [227](./problemas/227.cpp) | AC |
 | [Codificación espejo](https://aceptaelreto.com/problem/statement.php?id=228) | [228]() |        |
 | [Cuentas paralelas](https://aceptaelreto.com/problem/statement.php?id=229) | [229](./problemas/229.cpp) | AC |
@@ -235,7 +235,7 @@
 | [](https://aceptaelreto.com/problem/statement.php?id=332) | [332]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=333) | [333]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=334) | [334]() |        |
-| [](https://aceptaelreto.com/problem/statement.php?id=335) | [335]() |        |
+| [Pirámide de canicas](https://aceptaelreto.com/problem/statement.php?id=335) | [335](./problemas/335.cpp) | AC |
 | [](https://aceptaelreto.com/problem/statement.php?id=336) | [336]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=337) | [337]() |        |
 | [](https://aceptaelreto.com/problem/statement.php?id=338) | [338]() |        |
